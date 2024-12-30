@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sour gummy;
+}
+header{
+    font-size: 200%;
+    background-color: rgb(9, 136, 75);
+    margin: 10px;
+    padding: 30px;
+    border: 3px solid brown;
+    text-align: center;
+  }
+
+#navbar {
+    margin: 10px;
+    padding: 1%;
+    border: 2px solid rgb(143, 19, 44);
+    background: hsl(94, 84%, 40%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1.5em;
+    text-decoration: none;
+    }
+
+#navbar > ul > a{
+    text-decoration: none;
+    margin: 3em;
+}
+#anuncio{
+    font-size: 1.5em;
+    margin: 10px;
+    color: red;
+    background-color: chartreuse;
+}
+.formulario{
+    margin: 20px;
+    padding: 2px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    background-image: url(/images/fondo.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    
+}
+
+
+.animales {
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    background-color: rgb(166, 218, 175);
+    
+}
+.imagen {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 20px;
+           
+    }
+.imagen img {
+    width: 50%;
+    height: 70%;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px;
+}
+.imagen p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(166, 218, 175);
+}
+  
+
+footer{ 
+    position: relative;
+    bottom: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#carrito {
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
+.agotado {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.descuento {
+    color: green;
+    font-weight: bold;
+}
+#checkout-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    }
+.checkout-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    margin: 10% auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    text-align: center;
+}

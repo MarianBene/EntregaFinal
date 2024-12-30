@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Animales</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/26012a068f.js" crossorigin="anonymous"></script>
+</head>
+
+<header>
+    <h1>Los Animales</h1>
+</header>
+<nav id="navbar">
+
+    <ul>
+        <a href="../index.html">Inicio</a>        
+        <a href="/pages/granja.html">De la Granja</a>
+        <a href="/pages/selva.html">De la Selva</a>
+        <a href="/pages/oceano.html">Del Oceano</a>
+        <a href="/pages/carrito.html">Carrito De Compras</a>
+    </ul>
+</nav>
+
+
+<body>
+    <div id="anuncio">
+        <p>Inscribite para recibir novedades y consejos para cuidar a tu mascota!!</p>
+    </div>
+    <main>
+        <div class="formulario">
+            <form action="https://formspree.io/f/xbljybke" method="POST">
+                <p><label for="nombre">Nombre: <input type="text" name="nombre" id="nombre"></label></p><br>
+                <p><label for="apellido">Apellido: <input type="text" name="apellido" id="apellido"></label></p><br>
+                <p><label for="email">Email: <input type="email" name="email" id="email"></label></p><br>
+                <p><label for="nacimiento">Fec.Nac.: <input type="date" name="nacimiento" id="nacimiento"></label></p>
+                <br>
+                <p>
+                <h3>De que habitat te gustan mas?</h3>
+                </p>
+                <p><select name="opciones">
+                        <option value="opcion1">De la Granja</option>
+                        <option value="opcion2">De la Selva</option>
+                        <option value="opcion3">Del Oceano</option>
+                    </select></p><br>
+                <textarea name="mensaje" id="mensaje" rows="4" cols="30"
+                    placeholder="Cual es tu Animal Favorito..?"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+    </main>
+</body>
+
+<footer>
+    <h1>Cuidemos a los animales!</h1>
+    <a href="https://www.youtube.com/watch?v=CHD2SOHftiY"><i class="fa-brands fa-youtube"
+            style="color: rgb(250, 20, 20);"></i> </a>
+    <i class="fa-brands fa-facebook" style="color: blue;"></i>
+    <i class="fa-brands fa-instagram" style="color: orangered;"></i>
+    <i class="fa-brands fa-github" style="color: rgb(69, 49, 161);"></i>
+
+</footer>
+
+</html>
