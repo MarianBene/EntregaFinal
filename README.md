@@ -1,2 +1,3 @@
 # EntregaFinal
-Entrega Final FrontEnd
+Entrega Final FrontEnd 2024
+uso basico de HTML, CSS y JS
